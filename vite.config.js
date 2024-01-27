@@ -1,14 +1,7 @@
-import { defineConfig } from 'vite'
-
-/*
 export default {
     root: 'src',
     build: {
         outDir: '../dist',
     },
+    base: '/vite-practice/',
 };
-*/
-
-export default defineConfig({
-    base: '/vite-practice/'
-})
